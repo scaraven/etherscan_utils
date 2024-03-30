@@ -11,7 +11,6 @@ parser.add_argument('--lib', help='Download libraries', action='store_true')
 parser.add_argument('--path', help='Path for files', default='')
 args = parser.parse_args()
 address, key, lib, path = args.address, args.key, args.lib, args.path
-print(path)
 
 params = {
     "module": "contract",
